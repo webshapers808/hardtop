@@ -1,0 +1,141 @@
+@media only screen and (max-width:1499px) {
+    .text-inline {
+        font-size: 5.5em;
+    }
+
+    .text-line {
+        min-height: 5.7em;
+    }
+}
+
+@media only screen and (max-width:1279px) {
+    .text-inline {
+        font-size: 4.0em;
+    }
+
+    .text-line {
+        min-height: 4.2em;
+    }
+
+    .section-title {
+        font-size: 4.5em;
+        top: 5%;
+    }
+
+    .gallery-item {
+        min-width: 65vw;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .section-title {
+        font-size: 3.5em;
+    }
+
+    .text-inline {
+        font-size: 3.2em;
+    }
+
+    .text-line {
+        min-height: 3.4em;
+    }
+
+    .index-intro {
+        font-size: 1.0em;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .text-inline {
+        font-size: 2.1em;
+        font-weight: 800;
+    }
+
+    #burgerMenu {
+        bottom: 4%;
+        left: 43%;
+    }
+
+    .button-main {
+        font-size: 1.0em;
+    }
+
+    .row-2 {
+        flex-basis: 30%;
+        flex-direction: column;
+    }
+
+    .container {
+        grid-template-rows: 15% 25% 30%;
+    }
+
+    .logo-img {
+        bottom: 1%;
+    }
+
+    .text-line {
+        min-height: 2.5em;
+    }
+
+    .row-1 {
+        flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 2.0em;
+        top: 15%;
+    }
+
+    .service-title {
+        font-size: 1.5em;
+    }
+
+    .service-body {
+        font-size: 1.1em;
+    }
+
+    .gallery-item-desc {
+        padding-left: 20px;
+    }
+
+    .gallery-item {
+        max-height: 55vh;
+    }
+}
+
+@media only screen and (max-width:1025px) {
+    .ellipse-cursor {
+        display: none;
+    }
+
+    .drag-to-scroll {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    #closeMenu {
+        bottom: 4%;
+        left: 43%;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .button-main {
+        background-color: #000000;
+        color: #f6f6f6;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .link-text {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .link-text {
+        font-size: 3em;
+    }
+}
+
