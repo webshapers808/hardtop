@@ -11,6 +11,7 @@
 @media only screen and (max-width:1279px) {
     .text-inline {
         font-size: 4.0em;
+        font-weight: 900;
     }
 
     .text-line {
@@ -33,7 +34,7 @@
     }
 
     .text-inline {
-        font-size: 3.2em;
+        font-size: 3.0em;
     }
 
     .text-line {
@@ -66,7 +67,7 @@
     }
 
     .container {
-        grid-template-rows: 15% 25% 30%;
+        grid-template-rows: 15% 40% 30%;
     }
 
     .logo-img {
@@ -136,6 +137,124 @@
 @media only screen and (max-width:479px) {
     .link-text {
         font-size: 3em;
+    }
+}
+
+@media only screen and (max-width:1919px) {
+    .about-text-inline {
+        font-size: 5.8em;
+    }
+
+    .team-portrait {
+        top: 29vh;
+    }
+
+    .heber {
+        top: 61%;
+    }
+
+    .kaipo {
+        top: 88%;
+    }
+}
+
+@media only screen and (max-width:1499px) {
+    .about-text-inline {
+        font-size: 5.0em;
+    }
+
+    .heber {
+        top: 55%;
+    }
+
+    .kaipo {
+        top: 78%;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .about-text-inline {
+        font-size: 1.9em;
+        font-weight: 900;
+    }
+
+    .team-portrait {
+        grid-template-columns: 3% 32% 32% 32%;
+    }
+
+    .team-portrait-image-container {
+        width: 30%;
+        height: 9%;
+    }
+
+    .kaipo {
+        top: 48%;
+    }
+
+    .kamaua {
+    }
+
+    .heber {
+        top: 36%;
+    }
+
+    .team-portrait {
+        height: 30vh;
+    }
+
+    .team-portrait {
+        top: 23vh;
+    }
+
+    .team-portrait-image-container {
+        height: 15%;
+    }
+
+    .kaipo {
+        top: 66%;
+    }
+
+    .heber {
+        top: 47%;
+    }
+
+    .portait {
+        height: 30vh;
+    }
+
+    .body-text {
+        font-size: 1.2em;
+    }
+
+    .text-row > h1 {
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+
+    .mobile-display-none {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1279px) {
+    .about-text-inline {
+        font-size: 4.0em;
+    }
+
+    .team-portrait {
+        top: 25vh;
+    }
+
+    .team-portrait-image-container {
+        height: 9%;
+    }
+
+    .kaipo {
+        top: 34%;
+    }
+
+    .heber {
+        top: 23%;
     }
 }
 

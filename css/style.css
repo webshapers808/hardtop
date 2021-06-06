@@ -39,7 +39,7 @@ html {
 
 .text-line {
     position: relative;
-    min-height: 6.7em;
+    min-height: 7.0em;
 }
 
 .text-container {
@@ -57,7 +57,7 @@ html {
 
 .text-inline {
     font-weight: 600;
-    font-size: 6.5em;
+    font-size: 6.6em;
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
@@ -118,6 +118,7 @@ html {
     position: fixed;
     margin-bottom: 20px;
     z-index: 99;
+    bottom: 0;
 }
 
 .link-container {
@@ -170,7 +171,7 @@ html {
     position: absolute;
     background-color: #37bbe4;
     border-radius: 80px;
-    z-index: 96;
+    z-index: 101;
     transform: translate(-50%, -50%);
     mix-blend-mode: multiply;
     pointer-events: none;
@@ -203,7 +204,7 @@ html {
     top: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 98;
+    z-index: 96;
     padding-top: 31vh;
 }
 
@@ -280,7 +281,7 @@ html {
     font-weight: 800;
     font-size: 1.0em;
     color: #ffffff;
-    z-index: 97;
+    z-index: 102;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 100%;
@@ -381,8 +382,8 @@ label {
 }
 
 .body-text {
-    font-size: 1.3em;
-    line-height: 1.3em;
+    font-size: 2.0em;
+    line-height: 1.4em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
 }
@@ -429,5 +430,32 @@ label {
 #burgerMenu {
     position: fixed;
     z-index: 99;
+}
+
+.heber {
+    top: 50%;
+}
+
+.kaipo {
+    top: 73%;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.text-row > h1 {
+    margin-bottom: 0;
+}
+
+.about-text-inline {
+    font-weight: 600;
+    font-size: 7.2em;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.0em;
 }
 
