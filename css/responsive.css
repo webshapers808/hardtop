@@ -146,15 +146,14 @@
     }
 
     .team-portrait {
-        top: 29vh;
     }
 
     .heber {
-        top: 61%;
+        top: 15.5em;
     }
 
     .kaipo {
-        top: 88%;
+        top: 23.7em;
     }
 }
 
@@ -164,20 +163,15 @@
     }
 
     .heber {
-        top: 55%;
+        top: 11.8em;
     }
 
     .kaipo {
-        top: 78%;
+        top: 18.0em;
     }
 }
 
 @media only screen and (max-width:479px) {
-    .about-text-inline {
-        font-size: 1.9em;
-        font-weight: 900;
-    }
-
     .team-portrait {
         grid-template-columns: 3% 32% 32% 32%;
     }
@@ -242,7 +236,7 @@
     }
 
     .team-portrait {
-        top: 25vh;
+        top: 25%;
     }
 
     .team-portrait-image-container {
@@ -250,11 +244,62 @@
     }
 
     .kaipo {
-        top: 34%;
+        top: 14.1em;
     }
 
     .heber {
-        top: 23%;
+        top: 9.8em;
+    }
+}
+
+@media only screen and (max-width:1499px) {
+    .team-portrait-image-container {
+        height: 4.3em;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .text-line {
+    }
+
+    .about-text-inline {
+        font-size: 2.8em;
+    }
+
+    .heber {
+        top: 9.3em;
+    }
+
+    .kaipo {
+        top: 13.1em;
+    }
+
+    .team-portrait-image-container {
+        height: 2.7em;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .about-text-inline {
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    .team-portrait-image-container {
+        height: 1.4em;
+        width: 26%;
+    }
+
+    .heber {
+        top: 6.0em;
+    }
+
+    .kaipo {
+        top: 8.7em;
+    }
+
+    .team-portrait {
+        max-width: 92vw;
     }
 }
 

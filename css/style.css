@@ -4,8 +4,8 @@ html {
 
 .container {
     display: grid;
-    min-height: 100vh;
     grid-template-rows: 25% 57% 18%;
+    min-height: 100vh;
 }
 
 .row-1 {
@@ -39,7 +39,7 @@ html {
 
 .text-line {
     position: relative;
-    min-height: 7.0em;
+    min-height: 7.7em;
 }
 
 .text-container {
@@ -290,12 +290,12 @@ html {
 
 .team-portrait {
     position: absolute;
-    top: 25vh;
-    height: 50vh;
-    width: 100%;
+    width: 98%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     z-index: 5;
+    padding-top: 20px;
+    height: 57%;
 }
 
 .text-row {
@@ -318,7 +318,7 @@ html {
 }
 
 .team-portrait-image-container {
-    height: 20%;
+    height: 6.0em;
     position: absolute;
     width: 24%;
     overflow: hidden;
@@ -330,11 +330,6 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-}
-
-.portrait-sections {
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 .prompt {
@@ -433,11 +428,11 @@ label {
 }
 
 .heber {
-    top: 50%;
+    top: 16.4em;
 }
 
 .kaipo {
-    top: 73%;
+    top: 24.3em;
 }
 
 h4 {
