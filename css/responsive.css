@@ -1,23 +1,4 @@
-@media only screen and (max-width:1499px) {
-    .text-inline {
-        font-size: 5.5em;
-    }
-
-    .text-line {
-        min-height: 5.7em;
-    }
-}
-
 @media only screen and (max-width:1279px) {
-    .text-inline {
-        font-size: 4.0em;
-        font-weight: 900;
-    }
-
-    .text-line {
-        min-height: 4.2em;
-    }
-
     .section-title {
         font-size: 4.5em;
         top: 5%;
@@ -33,28 +14,91 @@
         font-size: 3.5em;
     }
 
-    .text-inline {
-        font-size: 3.0em;
-    }
-
-    .text-line {
-        min-height: 3.4em;
-    }
-
     .index-intro {
         font-size: 1.0em;
     }
 }
 
-@media only screen and (max-width:479px) {
-    .text-inline {
-        font-size: 2.1em;
-        font-weight: 800;
+@media only screen and (max-width:1025px) {
+    .ellipse-cursor {
+        display: none;
     }
 
+    .drag-to-scroll {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .button-main {
+        background-color: #000000;
+        color: #f6f6f6;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about-text-inline {
+        font-size: 5.9vw;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .link-text {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .text-inline {
+        font-size: 8.5vw;
+    }
+
+    .team-portrait {
+        grid-template-columns: 1% 32% 32% 32%;
+        top: 27%;
+    }
+
+    .portait {
+        height: 30vh;
+    }
+
+    .body-text {
+        font-size: 1.2em;
+    }
+
+    .text-row > h1 {
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+
+    .mobile-display-none {
+        display: none;
+    }
+
+    .about-text-inline {
+        font-size: 7.3vw;
+    }
+
+    .about-text-line {
+        height: 7.3vw;
+    }
+
+    .mobile-no-width {
+        width: 0;
+    }
+    
     #burgerMenu {
         bottom: 4%;
         left: 43%;
+    }
+
+    #closeMenu {
+        bottom: 4%;
+        left: 43%;
+    }
+
+    .link-text {
+        font-size: 3em;
     }
 
     .button-main {
@@ -101,205 +145,6 @@
 
     .gallery-item {
         max-height: 55vh;
-    }
-}
-
-@media only screen and (max-width:1025px) {
-    .ellipse-cursor {
-        display: none;
-    }
-
-    .drag-to-scroll {
-        display: none;
-    }
-}
-
-@media only screen and (max-width:479px) {
-    #closeMenu {
-        bottom: 4%;
-        left: 43%;
-    }
-}
-
-@media only screen and (max-width:1023px) {
-    .button-main {
-        background-color: #000000;
-        color: #f6f6f6;
-    }
-}
-
-@media only screen and (max-width:769px) {
-    .link-text {
-        font-size: 5em;
-    }
-}
-
-@media only screen and (max-width:479px) {
-    .link-text {
-        font-size: 3em;
-    }
-}
-
-@media only screen and (max-width:1919px) {
-    .about-text-inline {
-        font-size: 5.8em;
-    }
-
-    .team-portrait {
-    }
-
-    .heber {
-        top: 15.5em;
-    }
-
-    .kaipo {
-        top: 23.7em;
-    }
-}
-
-@media only screen and (max-width:1499px) {
-    .about-text-inline {
-        font-size: 5.0em;
-    }
-
-    .heber {
-        top: 11.8em;
-    }
-
-    .kaipo {
-        top: 18.0em;
-    }
-}
-
-@media only screen and (max-width:479px) {
-    .team-portrait {
-        grid-template-columns: 3% 32% 32% 32%;
-    }
-
-    .team-portrait-image-container {
-        width: 30%;
-        height: 9%;
-    }
-
-    .kaipo {
-        top: 48%;
-    }
-
-    .kamaua {
-    }
-
-    .heber {
-        top: 36%;
-    }
-
-    .team-portrait {
-        height: 30vh;
-    }
-
-    .team-portrait {
-        top: 23vh;
-    }
-
-    .team-portrait-image-container {
-        height: 15%;
-    }
-
-    .kaipo {
-        top: 66%;
-    }
-
-    .heber {
-        top: 47%;
-    }
-
-    .portait {
-        height: 30vh;
-    }
-
-    .body-text {
-        font-size: 1.2em;
-    }
-
-    .text-row > h1 {
-        font-size: 1.5em;
-        font-weight: 900;
-    }
-
-    .mobile-display-none {
-        display: none;
-    }
-}
-
-@media only screen and (max-width:1279px) {
-    .about-text-inline {
-        font-size: 4.0em;
-    }
-
-    .team-portrait {
-        top: 25%;
-    }
-
-    .team-portrait-image-container {
-        height: 9%;
-    }
-
-    .kaipo {
-        top: 14.1em;
-    }
-
-    .heber {
-        top: 9.8em;
-    }
-}
-
-@media only screen and (max-width:1499px) {
-    .team-portrait-image-container {
-        height: 4.3em;
-    }
-}
-
-@media only screen and (max-width:1023px) {
-    .text-line {
-    }
-
-    .about-text-inline {
-        font-size: 2.8em;
-    }
-
-    .heber {
-        top: 9.3em;
-    }
-
-    .kaipo {
-        top: 13.1em;
-    }
-
-    .team-portrait-image-container {
-        height: 2.7em;
-    }
-}
-
-@media only screen and (max-width:479px) {
-    .about-text-inline {
-        font-size: 1.8em;
-        font-weight: 700;
-    }
-
-    .team-portrait-image-container {
-        height: 1.4em;
-        width: 26%;
-    }
-
-    .heber {
-        top: 6.0em;
-    }
-
-    .kaipo {
-        top: 8.7em;
-    }
-
-    .team-portrait {
-        max-width: 92vw;
     }
 }
 
