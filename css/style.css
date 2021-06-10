@@ -492,6 +492,16 @@ footer {
 .footer-text p {
     font-size: 1.8vw;
 }
+.go-btn {
+    text-decoration: none;
+    color: #46abd0;
+    font-size: 1.3rem;
+    transition: all 0.5;
+    font-weight: bold;
+}
+.go-btn:hover {
+    opacity: 0.6;
+}
 .footer-input {
     min-height: 15vh;
     width: 35%;
@@ -505,19 +515,20 @@ footer {
     padding: 0 0.5rem;
     margin: 0;
     font-size: 1.1rem;
+    border: 2px solid black;
+    text-align: center;
 }
 .email-input {
     max-height: 2.2rem;
     background: #F6F6F6;
 }
 .email-input::placeholder {
-    color: black;
+    color: rgb(77, 77, 77);
+    text-align: center;
 }
 .submit-btn {
     box-sizing: border-box;
     min-width: 20vw;
-    min-width: 20vw;
-    border: 2px solid black;
     background: transparent;
     font-size: 1.1rem;
     font-weight: bold;
