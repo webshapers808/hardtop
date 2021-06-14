@@ -1,8 +1,5 @@
 html {
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .container {
@@ -142,6 +139,7 @@ html {
     text-decoration: none;
     position: relative;
     top: 1em;
+    z-index: 99;
 }
 
 #ellipse-cursor {
@@ -235,12 +233,10 @@ html {
     display: block;
     overflow: hidden;
     min-width: 42vw;
-    background-repeat: no-repeat;
     flex-direction: column;
     height: 70vh;
-    background-size: auto;
     color: #ffffff;
-    background-position: right center;
+    background-color: #ffffff;
 }
 
 .acrylic-material {
@@ -258,18 +254,22 @@ html {
     padding-left: 60px;
     padding-right: 60px;
     min-height: 25%;
+    z-index: 1;
+    position: relative;
 }
 
 .service-title {
     font-size: 3.0em;
-    font-weight: 900;
+    font-weight: 700;
+    color: #000000;
 }
 
 .service-body {
-    font-size: 2.2em;
+    font-size: 1.6em;
     font-weight: 400;
     line-height: 1.2em;
     font-family: 'DM Sans', sans-serif;
+    color: #000000;
 }
 
 .drag-to-scroll {
@@ -277,7 +277,7 @@ html {
     font-weight: 800;
     font-size: 1.0em;
     color: #ffffff;
-    z-index: 102;
+    z-index: 96;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 100%;
@@ -317,6 +317,7 @@ html {
     position: absolute;
     overflow: hidden;
     width: 24%;
+    opacity: 0;
 }
 
 .portait {
@@ -348,10 +349,6 @@ html {
     border-left-style: none;
     border-bottom-width: 2px;
     margin-left: 15%;
-}
-.contact-input, 
-.message {
-    outline: none;
 }
 
 .message {
@@ -424,6 +421,9 @@ label {
 #burgerMenu {
     position: fixed;
     z-index: 99;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 .heber {
@@ -443,6 +443,7 @@ h4 {
 .text-row > h1 {
     margin-bottom: 0;
 }
+
 .about-text-inline {
     font-weight: 600;
     font-size: 6.2vw;
@@ -450,21 +451,75 @@ h4 {
     margin-bottom: 0;
     line-height: 1.0em;
     position: relative;
+    transform: translateY(1em);
 }
+
 .about-text-line {
     height: 7.0vw;
     position: relative;
 }
 
+.gradient-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto;
+    opacity: 0.45;
+}
+
+.skills-container {
+    height: 75vh;
+    padding: 20px;
+    font-family: Satoshi;
+}
+
+.skill-text {
+}
+
+.skill-text-container {
+    margin-top: 5%;
+    padding-left: 10%;
+}
+
+.skill-paragraph {
+    display: block;
+    position: relative;
+}
+
+.skills-text-box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.skill-text > span > sup {
+    font-size: 3.0vw;
+}
+
+.skill-text {
+    font-size: 3.7vw;
+    position: relative;
+    overflow: hidden;
+    top: 5vw;
+}
+
+.skill-text > sup {
+    font-size: 0.6em;
+}
+
 /* FOOTER STYLES */
 footer {
-    min-height: 15vh;
-    width: 100vw;
+    min-height: 25vh;
+    width: 99vw;
     margin-top: 2rem;
-    box-shadow: 0px 5px 5px #888, 0px -5px 5px #888;
 }
+
 .footer-container,
-.footer-box, 
+.footer-box,
 .footer-input,
 .footer-text {
     display: flex;
@@ -472,26 +527,33 @@ footer {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .footer-container {
+    width: 99vw;
     height: 100%;
-    width: 100vw;
+    position: relative;
 }
+
 .footer-box {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
+
 .footer-text h3 {
     font-size: 2.3vw;
     padding: 0 2rem;
 }
+
 .footer-text h3,
 .footer-text p {
     margin: 0.7rem 0 0 3rem;
 }
+
 .footer-text p {
     font-size: 1.8vw;
 }
+
 .go-btn {
     text-decoration: none;
     color: #46abd0;
@@ -499,14 +561,17 @@ footer {
     transition: all 0.5;
     font-weight: bold;
 }
+
 .go-btn:hover {
     opacity: 0.6;
 }
+
 .footer-input {
     min-height: 15vh;
     width: 35%;
     margin-top: 1rem;
 }
+
 .input {
     box-sizing: border-box;
     width: 60%;
@@ -518,14 +583,17 @@ footer {
     border: 2px solid black;
     text-align: center;
 }
+
 .email-input {
     max-height: 2.2rem;
     background: #F6F6F6;
 }
+
 .email-input::placeholder {
     color: rgb(77, 77, 77);
     text-align: center;
 }
+
 .submit-btn {
     box-sizing: border-box;
     min-width: 20vw;
@@ -534,14 +602,17 @@ footer {
     font-weight: bold;
     transition: all 0.5s;
 }
+
 .submit-btn:hover {
     background: black;
     color: #F6F6F6;
     cursor: pointer;
 }
+
 .footer-box2 {
     padding: 1rem 0;
 }
+
 .footer-box2 h4 {
     margin: 0;
     color: #46abd0;
@@ -551,66 +622,103 @@ footer {
     .footer-text h3 {
         font-size: 2.9vw;
     }
+
     .footer-text h3,
     .footer-text p {
         margin: 1rem 0 0 1rem;
     }
 }
+
 @media screen and (max-width: 830px) {
     body {
         overflow-x: hidden;
     }
+
     .footer-text h3 {
         font-size: 3.1vw;
     }
+
     .footer-text p {
         font-size: 2vw;
     }
+
     .input {
         width: 100%;
     }
 }
+
 @media screen and (max-width: 750px) {
     .footer-text h3 {
         font-size: 3.7vw;
     }
+
     .footer-text p {
         font-size: 2.6vw;
     }
 }
+
 @media screen and (max-width: 550px) {
     .footer-text h3 {
         font-size: 4.1vw;
     }
+
     .footer-text p {
         font-size: 3vw;
     }
+
     .input {
         width: 150%;
     }
 }
+
 @media screen and (max-width: 479px) {
-    footer{
+    footer {
         padding: 0 0 7rem 0;
     }
 }
+
 @media screen and (max-width: 430px) {
     .footer-text h3 {
         font-size: 4.2vw;
     }
+
     .footer-text p {
         display: none;
     }
+
     .input {
         width: 200%;
     }
 }
+
 @media screen and (max-width: 361px) {
     .footer-text h3 {
         text-align: center;
         font-size: 6vw;
     }
+
     footer {
         padding: 0 0 8rem 0;
     }
+}
+
+.skill-benefit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 10vw;
+}
+
+.skills-opportunity {
+    padding-right: 10px;
+}
+
+.fixed-pos {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
 }
