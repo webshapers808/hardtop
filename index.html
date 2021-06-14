@@ -17,56 +17,64 @@
     <body class="custom-scrollbar my-body">
         <div class="ellipse-cursor" id="customCursor"></div>
         <span class="drag-to-scroll" id="drag-position">DRAG</span>
-        <div class="navbar">
-            <span class="link-container"><a class="link-text" href="./index.html">HOME</a></span>
-            <span class="link-container"><a class="link-text" href="./about.html">ABOUT</a></span>
-            <span class="link-container"><a class="link-text" href="./contact.html">CONTACT</a></span>
+        <div>
+            <img src="assets/img/w_s.jpg" width="70" class="logo-img" data-pg-ia='{"l":[{"name":"logoStart","trg":"now","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":1}}]}]}}]}' style="padding-left: 20px;"/>
+            <a name="anchor" class="home-link" href="index.html" style="bottom: 20px;"></a>
         </div>
-        <div class="container" data-pg-ia-hide data-pg-ia='{"l":[{"name":"loadAnimation","trg":"load","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1},"e":"Power4.easeInOut"}]}]}}]}'>
+        <div style="padding-left: 20px; position: absolute; top: 25vh;">
+            <svg width="70" height="70" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio data-pg-ia='{"l":[{"name":"cursorExpand","trg":"mouseenter","a":{"l":[{"t":"$#customCursor","l":[{"t":"set","p":0,"d":0,"l":{"width":"30px"}},{"t":"set","p":0,"d":0,"l":{"height":"30px"}},{"t":"tween","p":0,"d":0.5,"l":{"width":"70px"},"e":"Power4.easeInOut"},{"t":"tween","p":0,"d":0.5,"l":{"height":"70px"},"e":"Power4.easeInOut"}]}]},"tcv":"cursor-expand"},{"name":"cursorCollapse","trg":"mouseleave","a":{"l":[{"t":"$#customCursor","l":[{"t":"set","p":0,"d":0,"l":{"width":"70px"}},{"t":"set","p":0,"d":0,"l":{"height":"70px"}},{"t":"tween","p":0,"d":0.5,"l":{"width":"30px"},"e":"Power4.easeInOut"},{"t":"tween","p":0,"d":0.5,"l":{"height":"30px"},"e":"Power4.easeInOut"}]}]}},{"name":"openMenu","trg":"mousedown","a":{"l":[{"t":"$.navbar","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"y":"100vh"}},{"t":"tween","p":0,"d":0.5,"l":{"display":"block"}},{"t":"tween","p":0,"d":1.2,"l":{"y":0},"e":"Power4.easeInOut"}]},{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"display":"block"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":1}},{"t":"tween","p":1,"d":0.5,"l":{"autoAlpha":0}},{"t":"tween","p":1.5,"d":0.5,"l":{"display":"none"}}]},{"t":"$.navbar #gt# span:nth-of-type(1) #gt# .link-text, .navbar #gt# span:nth-of-type(2) #gt# .link-text, .navbar #gt# span:nth-of-type(3) #gt# .link-text","l":[{"t":"tween","p":0.3,"d":1,"s":0.15,"l":{"top":0},"e":"Bounce.easeIn"}]},{"t":"$#closeMenu","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":0}},{"t":"tween","p":1,"d":0.5,"l":{"autoAlpha":1}},{"t":"tween","p":1,"d":0.5,"l":{"display":"block"}}]}]}}]}' id="burgerMenu" class="cursor-expand">
+                <circle cx="150" cy="150" r="145"/>
+                <line x1="98" y1="116" x2="201.787" y2="116" stroke="black" stroke-width="12"/>
+                <line x1="98" y1="172.25" x2="149.893" y2="172.25" stroke="black" stroke-width="12"/>
+            </svg>
+            <svg height="70" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="70" data-pg-ia='{"l":[{"name":"menuClose","trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"display":"block"}},{"t":"tween","p":0.48,"d":0.5,"l":{"display":"none"}}]},{"t":"$#burgerMenu","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":0}},{"t":"tween","p":0.98,"d":0.5,"l":{"display":"block"}},{"t":"tween","p":0.98,"d":0.5,"l":{"autoAlpha":1}}]},{"t":"$.navbar","l":[{"t":"set","p":0,"d":0,"l":{"y":0}},{"t":"tween","p":0.49,"d":0.5,"l":{"y":"100vh"},"e":"Power4.easeInOut"},{"t":"tween","p":0.57,"d":0.5,"l":{"display":"none"}}]}]}}]}' id="closeMenu">
+                <circle cx="150" cy="150" r="145"/>
+                <line x1="101.094" y1="96.19" x2="199.945" y2="195.041" stroke="black" stroke-width="12"/>
+                <line x1="96.9063" y1="195.757" x2="197.906" y2="94.7574" stroke="black" stroke-width="12"/>
+            </svg>
+        </div>
+        <div style="padding-left: 75vw; padding-top: 20px;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.36 25.26" width="20px" class="social-media-icons" height="20px" preserveAspectRatio>
+                <defs>
+                    <style>.cls-1 { fill: #8c8c8c; }</style>
+                </defs>
+                <g id="Layer_2" data-name="Layer 2">
+                    <g id="Layer_1-2" data-name="Layer 1">
+                        <path class="cls-1" d="M12.62,25.23a51.12,51.12,0,0,1-6.43-.13,6.73,6.73,0,0,1-6-6.38,95.45,95.45,0,0,1,0-12A6.83,6.83,0,0,1,6.87.14C10,0,13.17,0,16.32,0A17.22,17.22,0,0,1,20.24.5,6.33,6.33,0,0,1,25.1,6.14,84.11,84.11,0,0,1,25.21,18a7,7,0,0,1-2.62,5.7A8,8,0,0,1,18,25.22C16.19,25.28,14.41,25.23,12.62,25.23Zm0-2.19c1.87.05,3.74,0,5.61-.11,2.6-.14,4.33-1.52,4.58-4.09a69,69,0,0,0,0-12.11c-.21-2.76-1.61-4-4.38-4.26A70,70,0,0,0,7.35,2.41C4,2.64,2.48,4.22,2.4,7.23c-.1,3.6-.11,7.2,0,10.8C2.49,21.2,4.27,22.82,7.45,23,9.18,23,10.9,23.07,12.63,23Z"/>
+                        <path class="cls-1" d="M6.22,12.73a6.48,6.48,0,0,1,6.42-6.54,6.56,6.56,0,0,1,6.57,6.5,6.6,6.6,0,0,1-6.49,6.52A6.53,6.53,0,0,1,6.22,12.73Zm6.47-4.24A4.11,4.11,0,0,0,8.5,12.66a4.15,4.15,0,0,0,4.21,4.24,4.21,4.21,0,1,0,0-8.41Z"/>
+                        <path class="cls-1" d="M19.4,7.36a1.4,1.4,0,0,1-1.48-1.45,1.52,1.52,0,0,1,1.52-1.53,1.61,1.61,0,0,1,1.47,1.53A1.52,1.52,0,0,1,19.4,7.36Z"/>
+                    </g>
+                </g>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.39 143.66" height="20px" class="social-media-icons" preserveAspectRatio>
+                <defs>
+                    <style>.cls-1 { fill: #8c8c8c; }</style>
+                </defs>
+                <g id="Layer_2" data-name="Layer 2">
+                    <g id="Layer_1-2" data-name="Layer 1">
+                        <path class="cls-1" d="M22.72,142.53c0-.33,0-.65,0-1q0-30.21,0-60.43c0-.75-.17-.94-.93-.93-7,0-13.94,0-20.92,0-.68,0-.87-.18-.87-.87Q0,67.29,0,55.2c0-.65.15-.83.81-.83,7,0,14.05,0,21.07,0,.63,0,.83-.12.83-.81,0-7.07-.11-14.14,0-21.21a36.63,36.63,0,0,1,4-16.43A28,28,0,0,1,41.91,2.53,42.19,42.19,0,0,1,59.2.05,149.22,149.22,0,0,1,75.67,1.63c.57.08.72.28.72.84q0,10.26,0,20.51c0,.66-.23.78-.82.77-3.66,0-7.32,0-11,0a16.48,16.48,0,0,0-7.43,1.63c-3.8,1.94-5.67,5.2-6.35,9.28a15.74,15.74,0,0,0-.22,2.74c0,5.38,0,10.76,0,16.13,0,.69.17.87.86.87,7.7,0,15.39,0,23.08,0,.68,0,.81.14.7.83q-1.91,12.15-3.73,24.32c-.09.59-.3.71-.85.71q-9.48,0-19,0c-1.21,0-1.08-.2-1.08,1v61.24a28.47,28.47,0,0,1-4,.6,82.79,82.79,0,0,1-10.44.54,78.78,78.78,0,0,1-11.27-.79C24.17,142.75,23.43,142.71,22.72,142.53Z"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="navbar">
+            <span class="link-container"><a class="link-text" data-pg-ia='{"l":[{"name":"transitionFadeOut","a":{"l":[{"t":"$.navbar","l":[{"t":"set","p":0,"d":0,"l":{"y":"0vh"}},{"t":"tween","p":0,"d":0.7,"l":{"y":"100vh"},"e":"Power4.easeInOut"}]},{"t":"$.fd-out","l":[{"t":"tween","p":0.7,"d":0.7,"l":{"autoAlpha":0},"e":"Power4.easeOut"}]}]},"tcv":".transition-stay","pdef":"true","trg":"click"}]}' data-pg-ia-apply="$.navbar > span:nth-of-type(1) > .link-text, .navbar > span:nth-of-type(2) > .link-text, .navbar > span:nth-of-type(3) > .link-text" href="../index.html">HOME</a></span>
+            <span class="link-container"><a class="link-text" href="../about.html">ABOUT</a></span>
+            <span class="link-container"><a class="link-text" href="../contact.html">CONTACT</a></span>
+        </div>
+        <div class="container fd-out" data-pg-ia-hide data-pg-ia='{"l":[{"name":"loadAnimation","trg":"load","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1},"e":"Power4.easeInOut"}]}]}}]}'>
             <div class="row-1">
                 <div class="column-6"></div>
                 <div class="column-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.39 143.66" height="20px" class="social-media-icons" preserveAspectRatio>
-                        <defs>
-                            <style>.cls-1 { fill: #8c8c8c; }</style>
-                        </defs>
-                        <g id="Layer_2" data-name="Layer 2">
-                            <g id="Layer_1-2" data-name="Layer 1">
-                                <path class="cls-1" d="M22.72,142.53c0-.33,0-.65,0-1q0-30.21,0-60.43c0-.75-.17-.94-.93-.93-7,0-13.94,0-20.92,0-.68,0-.87-.18-.87-.87Q0,67.29,0,55.2c0-.65.15-.83.81-.83,7,0,14.05,0,21.07,0,.63,0,.83-.12.83-.81,0-7.07-.11-14.14,0-21.21a36.63,36.63,0,0,1,4-16.43A28,28,0,0,1,41.91,2.53,42.19,42.19,0,0,1,59.2.05,149.22,149.22,0,0,1,75.67,1.63c.57.08.72.28.72.84q0,10.26,0,20.51c0,.66-.23.78-.82.77-3.66,0-7.32,0-11,0a16.48,16.48,0,0,0-7.43,1.63c-3.8,1.94-5.67,5.2-6.35,9.28a15.74,15.74,0,0,0-.22,2.74c0,5.38,0,10.76,0,16.13,0,.69.17.87.86.87,7.7,0,15.39,0,23.08,0,.68,0,.81.14.7.83q-1.91,12.15-3.73,24.32c-.09.59-.3.71-.85.71q-9.48,0-19,0c-1.21,0-1.08-.2-1.08,1v61.24a28.47,28.47,0,0,1-4,.6,82.79,82.79,0,0,1-10.44.54,78.78,78.78,0,0,1-11.27-.79C24.17,142.75,23.43,142.71,22.72,142.53Z"/>
-                            </g>
-                        </g>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.36 25.26" width="20px" class="social-media-icons" height="20px" preserveAspectRatio>
-                        <defs>
-                            <style>.cls-1 { fill: #8c8c8c; }</style>
-                        </defs>
-                        <g id="Layer_2" data-name="Layer 2">
-                            <g id="Layer_1-2" data-name="Layer 1">
-                                <path class="cls-1" d="M12.62,25.23a51.12,51.12,0,0,1-6.43-.13,6.73,6.73,0,0,1-6-6.38,95.45,95.45,0,0,1,0-12A6.83,6.83,0,0,1,6.87.14C10,0,13.17,0,16.32,0A17.22,17.22,0,0,1,20.24.5,6.33,6.33,0,0,1,25.1,6.14,84.11,84.11,0,0,1,25.21,18a7,7,0,0,1-2.62,5.7A8,8,0,0,1,18,25.22C16.19,25.28,14.41,25.23,12.62,25.23Zm0-2.19c1.87.05,3.74,0,5.61-.11,2.6-.14,4.33-1.52,4.58-4.09a69,69,0,0,0,0-12.11c-.21-2.76-1.61-4-4.38-4.26A70,70,0,0,0,7.35,2.41C4,2.64,2.48,4.22,2.4,7.23c-.1,3.6-.11,7.2,0,10.8C2.49,21.2,4.27,22.82,7.45,23,9.18,23,10.9,23.07,12.63,23Z"/>
-                                <path class="cls-1" d="M6.22,12.73a6.48,6.48,0,0,1,6.42-6.54,6.56,6.56,0,0,1,6.57,6.5,6.6,6.6,0,0,1-6.49,6.52A6.53,6.53,0,0,1,6.22,12.73Zm6.47-4.24A4.11,4.11,0,0,0,8.5,12.66a4.15,4.15,0,0,0,4.21,4.24,4.21,4.21,0,1,0,0-8.41Z"/>
-                                <path class="cls-1" d="M19.4,7.36a1.4,1.4,0,0,1-1.48-1.45,1.52,1.52,0,0,1,1.52-1.53,1.61,1.61,0,0,1,1.47,1.53A1.52,1.52,0,0,1,19.4,7.36Z"/>
-                            </g>
-                        </g>
-                    </svg>
-                </div>
+</div>
             </div>
             <div class="index-hero-message row-2">
                 <div class="column-2">
-                    <svg width="70" height="70" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio data-pg-ia='{"l":[{"name":"cursorExpand","trg":"mouseenter","a":{"l":[{"t":"$#customCursor","l":[{"t":"set","p":0,"d":0,"l":{"width":"30px"}},{"t":"set","p":0,"d":0,"l":{"height":"30px"}},{"t":"tween","p":0,"d":0.5,"l":{"width":"70px"},"e":"Power4.easeInOut"},{"t":"tween","p":0,"d":0.5,"l":{"height":"70px"},"e":"Power4.easeInOut"}]}]},"tcv":"cursor-expand"},{"name":"cursorCollapse","trg":"mouseleave","a":{"l":[{"t":"$#customCursor","l":[{"t":"set","p":0,"d":0,"l":{"width":"70px"}},{"t":"set","p":0,"d":0,"l":{"height":"70px"}},{"t":"tween","p":0,"d":0.5,"l":{"width":"30px"},"e":"Power4.easeInOut"},{"t":"tween","p":0,"d":0.5,"l":{"height":"30px"},"e":"Power4.easeInOut"}]}]}},{"name":"openMenu","trg":"mousedown","a":{"l":[{"t":"$.navbar","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"y":"100vh"}},{"t":"tween","p":0,"d":0.5,"l":{"display":"block"}},{"t":"tween","p":0,"d":1.2,"l":{"y":0},"e":"Power4.easeInOut"}]},{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"display":"block"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":1}},{"t":"tween","p":1,"d":0.5,"l":{"autoAlpha":0}},{"t":"tween","p":1.5,"d":0.5,"l":{"display":"none"}}]},{"t":"$.navbar #gt# span:nth-of-type(1) #gt# .link-text, .navbar #gt# span:nth-of-type(2) #gt# .link-text, .navbar #gt# span:nth-of-type(3) #gt# .link-text","l":[{"t":"tween","p":0.3,"d":1,"s":0.15,"l":{"top":0},"e":"Bounce.easeIn"}]},{"t":"$#closeMenu","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":0}},{"t":"tween","p":1,"d":0.5,"l":{"autoAlpha":1}},{"t":"tween","p":1,"d":0.5,"l":{"display":"block"}}]}]}}]}' id="burgerMenu" class="cursor-expand">
-                        <circle cx="150" cy="150" r="145" fill="#F6F6F6" stroke="black" stroke-width="10"/>
-                        <line x1="98" y1="116" x2="201.787" y2="116" stroke="black" stroke-width="12"/>
-                        <line x1="98" y1="172.25" x2="149.893" y2="172.25" stroke="black" stroke-width="12"/>
-                    </svg>
-                    <svg height="70" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="70" data-pg-ia='{"l":[{"name":"menuClose","trg":"click","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"display":"block"}},{"t":"tween","p":0.48,"d":0.5,"l":{"display":"none"}}]},{"t":"$.row-2 #gt# .column-2 #gt# svg:nth-of-type(1)","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":0}},{"t":"tween","p":0.98,"d":0.5,"l":{"display":"block"}},{"t":"tween","p":0.98,"d":0.5,"l":{"autoAlpha":1}}]},{"t":"$.navbar","l":[{"t":"set","p":0,"d":0,"l":{"y":0}},{"t":"tween","p":0.49,"d":0.5,"l":{"y":"100vh"},"e":"Power4.easeInOut"},{"t":"tween","p":0.57,"d":0.5,"l":{"display":"none"}}]}]}}]}' id="closeMenu">
-                        <circle cx="150" cy="150" r="145" stroke="black" stroke-width="10"/>
-                        <line x1="101.094" y1="96.19" x2="199.945" y2="195.041" stroke="black" stroke-width="12"/>
-                        <line x1="96.9063" y1="195.757" x2="197.906" y2="94.7574" stroke="black" stroke-width="12"/>
-                    </svg>
-                </div>
-                <div class="column-6">
+</div>
+                <section class="column-6">
                     <div class="text-line">
                         <div class="text-container">
-                            <div class="text-box" data-pg-ia='{"l":[{"name":"startTextPopup","trg":"load","a":{"l":[{"t":"$.container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(1) #gt# .text-container #gt# .text-box #gt# .text-inline, .container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(2) #gt# .text-container #gt# .text-box #gt# .text-inline, .container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(3) #gt# .text-container #gt# .text-box #gt# .text-inline, .container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(4) #gt# .text-container #gt# .text-box #gt# .text-inline","l":[{"t":"set","p":0,"d":0,"l":{"y":"1em"}},{"t":"tween","p":0.7,"d":1,"s":0.16,"l":{"y":"0em"},"e":"Power4.easeOut"}]}]}}]}'>
+                            <div class="text-box" data-pg-ia='{"l":[{"name":"startTextPopup","trg":"load","a":{"l":[{"t":"$.container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(1) #gt# .text-container #gt# .text-box #gt# .text-inline, .container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(2) #gt# .text-container #gt# .text-box #gt# .text-inline, .container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(3) #gt# .text-container #gt# .text-box #gt# .text-inline, .container #gt# .row-2 #gt# .column-6 #gt# div:nth-of-type(4) #gt# .text-container #gt# .text-box #gt# .text-inline","l":[{"t":"set","p":0,"d":0,"l":{"y":"1em"}},{"t":"tween","p":1.2,"d":1,"s":0.16,"l":{"y":"0em"},"e":"Cubic.easeInOut"}]}]}}]}'>
                                 <p class="text-inline">YOU DESERVE A</p>
                             </div>
                         </div>
@@ -89,7 +97,7 @@
                         <div class="text-container">
                             <div class="text-box">
                                 <div class="title-marquee">
-                                    <p class="text-inline" data-pg-ia='{"l":[{"name":"titleTextMarquee","trg":"load","a":{"l":[{"t":"$.title-marquee #gt# p:nth-of-type(1), .title-marquee #gt# p:nth-of-type(2), .title-marquee #gt# p:nth-of-type(3)","l":[{"t":"set","p":0,"d":0,"l":{"y":"1em"}},{"t":"tween","p":1,"d":0.5,"l":{"y":"0em"},"e":"Cubic.easeOut"},{"t":"tween","p":4,"d":0.5,"l":{"y":"-1em"},"e":"Cubic.easeOut"},{"t":"tween","p":7,"d":0.5,"l":{"y":"-2em"},"e":"Cubic.easeOut"},{"t":"tween","p":10,"d":0.3,"l":{"y":"-3em"}}]}]},"rpt":"99"}]}'>CREATE</p>
+                                    <p class="text-inline" data-pg-ia='{"l":[{"name":"titleTextMarquee","trg":"load","a":{"l":[{"t":"$.title-marquee #gt# p:nth-of-type(1), .title-marquee #gt# p:nth-of-type(2), .title-marquee #gt# p:nth-of-type(3)","l":[{"t":"set","p":0,"d":0,"l":{"y":"1em"}},{"t":"tween","p":2.2,"d":0.5,"l":{"y":"0em"},"e":"Cubic.easeOut"},{"t":"tween","p":5,"d":0.5,"l":{"y":"-1em"},"e":"Cubic.easeOut"},{"t":"tween","p":8,"d":0.5,"l":{"y":"-2em"},"e":"Cubic.easeOut"},{"t":"tween","p":11,"d":0.3,"l":{"y":"-3em"}}]}]},"rpt":"99"}]}'>CREATE</p>
                                     <p class="text-inline">MANAGE</p>
                                     <p class="text-inline">UPDATE</p>
                                 </div>
@@ -97,12 +105,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
             <div class="row-1">
                 <div class="column-2">
-                    <img src="assets/img/w_s.jpg" width="70" class="logo-img" data-pg-ia='{"l":[{"name":"logoStart","trg":"now","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":1}}]}]}}]}'/>
-                </div>
+</div>
                 <div class="column-4">
                     <a class="button-main index-CTA" data-pg-ia='{"l":[{"name":"buttonMouseOver","trg":"mouseenter","t":"$.button-main","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"color":"#f6f6f6","backgroundColor":"#000000"},"e":"Cubic.easeInOut"}]}]}},{"name":"buttonMouseLeave","trg":"mouseleave","t":"$.button-main","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"color":"#000000","backgroundColor":"#f6f6f6"},"e":"Cubic.easeInOut"}]}]}}]}' href="#services-container">WHY WE&apos;RE DIFFERENT</a>
                 </div>
@@ -111,20 +118,22 @@
                 </div>
             </div>
         </div>
-        <div id="services-container" data-pg-ia-scene='{"l":[{"a":{"l":[{"t":"#horizontal-gallery #gt# div:nth-of-type(1), #horizontal-gallery #gt# div:nth-of-type(2), #horizontal-gallery #gt# div:nth-of-type(3), #horizontal-gallery #gt# div:nth-of-type(4)","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0,"x":"15vw"}},{"t":"tween","p":0.5,"d":1.5,"s":0.2,"l":{"autoAlpha":1},"e":"Quad.easeOut"},{"t":"tween","p":0.5,"d":1.5,"s":0.2,"l":{"x":0},"e":"Cubic.easeOut"}]}]},"p":"time"}]}'>
+        <section id="services-container" data-pg-ia-scene='{"l":[{"a":{"l":[{"t":"#horizontal-gallery #gt# div:nth-of-type(1), #horizontal-gallery #gt# div:nth-of-type(2), #horizontal-gallery #gt# div:nth-of-type(3), #horizontal-gallery #gt# div:nth-of-type(4)","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0,"x":"15vw"}},{"t":"tween","p":0.5,"d":1.5,"s":0.2,"l":{"autoAlpha":1},"e":"Quad.easeOut"},{"t":"tween","p":0.5,"d":1.5,"s":0.2,"l":{"x":0},"e":"Cubic.easeOut"}]}]},"p":"time"}]}' class="fd-out">
             <div class="cursor-expand horizontal-gallery" id="horizontal-gallery" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;cursorExpand&quot;,&quot;trg&quot;:&quot;mouseenter&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;$#customCursor&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;width&quot;:&quot;30px&quot;}},{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;height&quot;:&quot;30px&quot;}},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.5,&quot;l&quot;:{&quot;width&quot;:&quot;100px&quot;},&quot;e&quot;:&quot;Power4.easeInOut&quot;},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.5,&quot;l&quot;:{&quot;height&quot;:&quot;100px&quot;},&quot;e&quot;:&quot;Power4.easeInOut&quot;}]}]},&quot;tcv&quot;:&quot;cursor-expand&quot;},{&quot;name&quot;:&quot;cursorCollapse&quot;,&quot;trg&quot;:&quot;mouseleave&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;$#customCursor&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;width&quot;:&quot;100px&quot;}},{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;height&quot;:&quot;100px&quot;}},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.5,&quot;l&quot;:{&quot;width&quot;:&quot;30px&quot;},&quot;e&quot;:&quot;Power4.easeInOut&quot;},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.5,&quot;l&quot;:{&quot;height&quot;:&quot;30px&quot;},&quot;e&quot;:&quot;Power4.easeInOut&quot;}]}]}}]}">
-                <div class="gallery-item" style="min-width: 20vw;"></div>
-                <div class="gallery-item" style="background-image: url('assets/img/gradient-02.jpg');" data-pg-ia-scene='{"s":"custom","s_t":"start","s_s":"start","e_t":"end","e_s":"start","e_o":"-10%","l":[{"a":{"l":[{"t":"$#horizontal-gallery #gt# div:nth-of-type(3), #horizontal-gallery #gt# div:nth-of-type(4), #horizontal-gallery #gt# div:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.5,"l":{"backgroundPositionX":"25%"}}]}]}}],"s_o":"25%"}'>
+                <div style="min-width: 25vw;"></div>
+                <div class="gallery-item" data-pg-ia-scene='{"s":"custom","s_t":"start","s_s":"start","s_o":"25%","e_t":"end","e_target":"$#horizontal-gallery #gt# div:nth-of-type(5)","e_s":"end","l":[{"a":{"l":[{"t":".gradient-div","l":[{"t":"tween","p":0,"d":0.5,"l":{"backgroundPositionX":"100%"}}]},{"t":"$#horizontal-gallery #gt# div:nth-of-type(3) #gt# .gradient-div","l":[{"t":"tween","p":0.1,"d":0.67,"l":{"backgroundPositionX":"98%"}}]},{"t":"$#horizontal-gallery #gt# div:nth-of-type(4) #gt# .gradient-div","l":[{"t":"tween","p":0.6,"d":0.5,"l":{"backgroundPositionX":"97%"}}]},{"t":"$#horizontal-gallery #gt# div:nth-of-type(5) #gt# .gradient-div","l":[{"t":"tween","p":0.72,"d":0.5,"l":{"backgroundPositionX":"94%"}}]}]}}]}'>
+                    <div class="gradient-div" style="background-image: url('assets/img/gradient-01.jpg');"></div>
                     <div class="gallery-item-desc pg-empty-placeholder"></div>
                     <div class="gallery-item-desc">
-                        <p class="service-title">SEO Management</p>
+                        <p class="service-title">Strategy</p>
                     </div>
                     <div class="gallery-item-desc">
                         <h4 class="service-body">We make sure that your potential customers discover you through SEO optimization</h4>
                     </div>
                     <div class="gallery-item-desc pg-empty-placeholder"></div>
                 </div>
-                <div class="gallery-item" style="background-image: url('assets/img/gradient-01.jpg');">
+                <div class="gallery-item">
+                    <div class="gradient-div" style="background-image: url('assets/img/gradient-02.jpg');"></div>
                     <div class="gallery-item-desc pg-empty-placeholder"></div>
                     <div class="gallery-item-desc">
                         <p class="service-title">Visual Design</p>
@@ -134,13 +143,25 @@
                     </div>
                     <div class="gallery-item-desc pg-empty-placeholder"></div>
                 </div>
-                <div class="gallery-item" style="background-image: url('assets/img/gradient-03.jpg');">
+                <div class="gallery-item">
+                    <div class="gradient-div" style="background-image: url('assets/img/gradient-03.jpg');"></div>
                     <div class="gallery-item-desc pg-empty-placeholder"></div>
                     <div class="gallery-item-desc">
-                        <p class="service-title">Web Development</p>
+                        <p class="service-title">Development</p>
                     </div>
                     <div class="gallery-item-desc">
                         <h4 class="service-body">Optimize customer experience through web applications and functions</h4>
+                    </div>
+                    <div class="gallery-item-desc pg-empty-placeholder"></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gradient-div" style="background-image: url('assets/img/gradient-04.jpg');"></div>
+                    <div class="gallery-item-desc pg-empty-placeholder"></div>
+                    <div class="gallery-item-desc">
+                        <p class="service-title">Performance</p>
+                    </div>
+                    <div class="gallery-item-desc">
+                        <h4 class="service-body">Don&apos;t let your potential customers wait. Retain and convert clients through improved performance</h4>
                     </div>
                     <div class="gallery-item-desc pg-empty-placeholder"></div>
                 </div>
@@ -149,22 +170,70 @@
                 <a class="button-main index-CTA" data-pg-ia='{"l":[{"name":"buttonMouseOver","trg":"mouseenter","t":"$.button-main","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"color":"#f6f6f6","backgroundColor":"#000000"},"e":"Cubic.easeInOut"}]}]}},{"name":"buttonMouseLeave","trg":"mouseleave","t":"$.button-main","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"color":"#000000","backgroundColor":"#f6f6f6"},"e":"Cubic.easeInOut"}]}]}}]}' href="#services-container">LET&apos;S COLLABORATE</a>
             </div>
             <h3 class="section-title">OUR APPROACH</h3>
-        </div>
-        <footer>
+        </section>
+        <section class="fd-out skills-container" data-pg-ia-scene='{"l":[{"p":"time","a":{"l":[{"t":".skill-text","l":[{"t":"tween","p":0.31,"d":0.5,"s":0.15,"l":{"top":0}}]}]}}]}'>
+            <div class="skill-text-container">
+                <div class="skills-text-box" style="padding-left: 17%; color: #37bbe4; font-weight: 700;">
+                    <span class="skill-text">WHAT WE CAN DO:&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">SEO&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Marketing<sup>1</sup>&nbsp;&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">JavaScript&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Development<sup>2</sup>&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Visual&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Design<sup>3</sup>&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Website&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Auditing<sup>4</sup>&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Object-Oriented&nbsp;</span>
+                </div>
+                <div class="skills-text-box">
+                    <span class="skill-text">Programming<sup>5</sup>&nbsp;</span>
+                </div>
+            </div>
+            <div class="skill-benefit">
+                <div class="pg-empty-placeholder"></div>
+                <div>
+                    <p class="skills-opportunity">This is where we put the client&apos;s potential problem or needs.</p>
+                </div>
+                <div>
+                    <p class="skills-opportunity">From ideation to development, our process will greatly benefit your company, organization, community.</p>
+                </div>
+                <div class="pg-empty-placeholder"></div>
+            </div>
+        </section>
+        <footer class="fd-out">
             <div class="footer-container">
-                <div class="footer-box footer-box1">
-                    <div class="footer-text">
-                        <h3>Feel Free to Contact Us with Your Email!</h3>
-                        <p>Want to send us a personalized message? <a class="go-btn" href="./contact.html">Go &rarr;</a></p>
-                    </div>
-                    <div class="footer-input">
-                        <input name="email" type="email" class="input email-input" placeholder="Email Address">
-                        <button name="submit" class="input submit-btn" type="submit" value="Submit">Send</button>
-                    </div>
-                </div>
-                <div class="footer-box footer-box2">
-                    <h4>@2021 Web_Shapers HI</h4>
-                </div>
+                <div class="pg-empty-placeholder" style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-image: url('assets/img/gradient-01.jpg'); background-size: cover; background-position: center center; z-index: -1; opacity: 0.35; height: 25vh;"></div>                 
+                <div class="footer-box footer-box1"> 
+                    <div class="footer-text"> 
+                        <h3>Feel Free to Contact Us with Your Email!</h3> 
+                        <p>Want to send us a personalized message? <a class="go-btn" href="./contact.html">Go &rarr;</a></p> 
+                    </div>                     
+                    <div class="footer-input"> 
+                        <input name="email" type="email" class="input email-input" placeholder="Email Address"> 
+                        <button name="submit" class="input submit-btn" type="submit" value="Submit">Send</button>                         
+                    </div>                     
+                </div>                 
+                <div class="footer-box footer-box2"> 
+                    <h4>@2021 Web_Shapers HI</h4> 
+                </div>                 
             </div>
         </footer>
         <script src="lib/js/jquery.min.js"></script>
