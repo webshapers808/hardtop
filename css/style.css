@@ -34,7 +34,6 @@ html {
 .column-2 {
     color: #37bbe4;
     flex-basis: 25%;
-    flex-grow: 2;
 }
 
 .text-line {
@@ -331,10 +330,10 @@ html {
 }
 
 .prompt {
-    font-size: 3.7em;
+    font-size: 3.5vw;
     margin: 0;
-    line-height: 1.3em;
     font-weight: 700;
+    line-height: 1em;
 }
 
 .contact-input {
