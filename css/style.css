@@ -276,7 +276,7 @@ html {
     position: absolute;
     font-weight: 800;
     font-size: 1.0em;
-    color: #ffffff;
+    color: #000000;
     z-index: 96;
     transform: translate(-50%, -50%);
     left: 50%;
