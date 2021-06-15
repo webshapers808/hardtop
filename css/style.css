@@ -217,7 +217,7 @@ html {
 
 .section-title {
     position: absolute;
-    left: 30%;
+    left: 28%;
     font-size: 6.6em;
     z-index: 2;
     color: #f6f6f6;
@@ -232,11 +232,12 @@ html {
     margin-right: 5%;
     display: block;
     overflow: hidden;
-    min-width: 42vw;
     flex-direction: column;
     height: 70vh;
     color: #ffffff;
     background-color: #ffffff;
+    min-width: 500px;
+    opacity: 0;
 }
 
 .acrylic-material {
@@ -276,12 +277,13 @@ html {
     position: absolute;
     font-weight: 800;
     font-size: 1.0em;
-    color: #ffffff;
+    color: #000000;
     z-index: 96;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 100%;
     pointer-events: none;
+    opacity: 0;
 }
 
 .team-portrait {
