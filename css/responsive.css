@@ -55,7 +55,7 @@
 
     .team-portrait {
         grid-template-columns: 1% 32% 32% 32%;
-        top: 27%;
+        top: 17%;
     }
 
     .portait {
@@ -86,7 +86,7 @@
     .mobile-no-width {
         width: 0;
     }
-    
+
     #burgerMenu {
         bottom: 4%;
         left: 43%;
@@ -146,5 +146,41 @@
     .gallery-item {
         max-height: 55vh;
     }
+
+    .row-3 {
+        flex-direction: column;
+    }
+
+    .prompt {
+        font-size: 9vw;
+    }
+
+    .contact-prompt-line {
+        min-height: 2.8em;
+    }
+
+    .contact-input {
+        font-size: 1.1em;
+        height: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .message {
+        margin-left: 0;
+        height: 1;
+        width: 100%;
+    }
+
+    .submit {
+        margin-left: 65%;
+    }
+}
+
+.icon-container {
+    padding-left: 75vw;
+    padding-top: 20px;
+    flex-direction: row;
+    display: flex;
 }
 

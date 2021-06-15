@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap">
         <link href="lib/css/satoshi.css" rel="stylesheet" type="text/css">
         <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
     </head>
     <body class="custom-scrollbar my-body">
         <div class="ellipse-cursor" id="customCursor"></div>
@@ -19,7 +20,7 @@
             <img src="assets/img/w_s.jpg" width="70" class="logo-img" data-pg-ia='{"l":[{"name":"logoStart","trg":"now","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":1}}]}]}}]}' style="padding-left: 20px;"/>
             <a name="anchor" class="home-link" href="index.html" style="bottom: 20px;"></a>
         </div>
-        <div style="padding-left: 20px; position: absolute; top: 25vh;">
+        <div style="padding-left: 20px; position: absolute; top: 34vh;">
             <svg width="70" height="70" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio data-pg-ia='{"l":[{"name":"cursorExpand","trg":"mouseenter","a":{"l":[{"t":"$#customCursor","l":[{"t":"set","p":0,"d":0,"l":{"width":"30px"}},{"t":"set","p":0,"d":0,"l":{"height":"30px"}},{"t":"tween","p":0,"d":0.5,"l":{"width":"70px"},"e":"Power4.easeInOut"},{"t":"tween","p":0,"d":0.5,"l":{"height":"70px"},"e":"Power4.easeInOut"}]}]},"tcv":"cursor-expand"},{"name":"cursorCollapse","trg":"mouseleave","a":{"l":[{"t":"$#customCursor","l":[{"t":"set","p":0,"d":0,"l":{"width":"70px"}},{"t":"set","p":0,"d":0,"l":{"height":"70px"}},{"t":"tween","p":0,"d":0.5,"l":{"width":"30px"},"e":"Power4.easeInOut"},{"t":"tween","p":0,"d":0.5,"l":{"height":"30px"},"e":"Power4.easeInOut"}]}]}},{"name":"openMenu","trg":"mousedown","a":{"l":[{"t":"$.navbar","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"y":"100vh"}},{"t":"tween","p":0,"d":0.5,"l":{"display":"block"}},{"t":"tween","p":0,"d":1.2,"l":{"y":0},"e":"Power4.easeInOut"}]},{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"display":"block"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":1}},{"t":"tween","p":1,"d":0.5,"l":{"autoAlpha":0}},{"t":"tween","p":1.5,"d":0.5,"l":{"display":"none"}}]},{"t":"$.navbar #gt# span:nth-of-type(1) #gt# .link-text, .navbar #gt# span:nth-of-type(2) #gt# .link-text, .navbar #gt# span:nth-of-type(3) #gt# .link-text","l":[{"t":"tween","p":0.3,"d":1,"s":0.15,"l":{"top":0},"e":"Bounce.easeIn"}]},{"t":"$#closeMenu","l":[{"t":"set","p":0,"d":0,"l":{"display":"none"}},{"t":"set","p":0,"d":0,"l":{"autoAlpha":0}},{"t":"tween","p":1,"d":0.5,"l":{"autoAlpha":1}},{"t":"tween","p":1,"d":0.5,"l":{"display":"block"}}]}]}}]}' id="burgerMenu" class="cursor-expand">
                 <circle cx="150" cy="150" r="145"/>
                 <line x1="98" y1="116" x2="201.787" y2="116" stroke="black" stroke-width="12"/>
@@ -31,7 +32,7 @@
                 <line x1="96.9063" y1="195.757" x2="197.906" y2="94.7574" stroke="black" stroke-width="12"/>
             </svg>
         </div>
-        <div style="padding-left: 75vw; padding-top: 20px;">
+        <div class="icon-container">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.36 25.26" width="20px" class="social-media-icons" height="20px" preserveAspectRatio>
                 <defs>
                     <style>.cls-1 { fill: #8c8c8c; }</style>
@@ -67,7 +68,7 @@
 </div>
             </div>
             <div class="row-3">
-                <div class="column-2" data-pg-ia-hide data-pg-ia-apply="$.container > div:nth-of-type(2) > div:nth-of-type(1), .container > div:nth-of-type(2) > div:nth-of-type(2), .column-4" data-pg-ia='{"l":[{"trg":"load","a":{"l":[{"t":"$.container #gt# div:nth-of-type(2) #gt# div:nth-of-type(1), .container #gt# div:nth-of-type(2) #gt# div:nth-of-type(2), .column-4","l":[{"t":"tween","p":0,"d":1,"s":0.25,"l":{"autoAlpha":1}}]}]}}]}'>
+                <div class="column-2" data-pg-ia-hide data-pg-ia-apply="$.container > div:nth-of-type(2) > div:nth-of-type(2), .column-4" data-pg-ia='{"l":[{"trg":"load","a":{"l":[{"t":"$.container #gt# div:nth-of-type(2) #gt# div:nth-of-type(2), .column-4","l":[{"t":"tween","p":0,"d":1,"s":0.25,"l":{"autoAlpha":1}}]}]}}]}'>
 </div>
                 <div class="column-2">
                     <div>
