@@ -514,9 +514,10 @@ h4 {
 
 /* FOOTER STYLES */
 footer {
-    min-height: 25vh;
+    min-height: 27vh;
     width: 99vw;
-    margin-top: 2rem;
+    margin: 2rem 0 0 0;
+    padding: 0;
 }
 
 .footer-container,
@@ -610,10 +611,6 @@ footer {
     cursor: pointer;
 }
 
-.footer-box2 {
-    padding: 1rem 0;
-}
-
 .footer-box2 h4 {
     margin: 0;
     color: #46abd0;
@@ -672,23 +669,37 @@ footer {
     }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
     footer {
-        padding: 0 0 7rem 0;
+        height: 50vh;
+    }
+    .footer-box {
+        margin-bottom: 3.5rem;
+    }
+    .footer-box1 {
+        margin: 0;
+    }
+    .pg-empty-placeholder {
+        height: 145%;
     }
 }
 
 @media screen and (max-width: 430px) {
     .footer-text h3 {
         font-size: 4.2vw;
+        text-align: center;
     }
-
     .footer-text p {
         display: none;
     }
-
     .input {
         width: 200%;
+    }
+    footer {
+        height: 55vh;
+    }
+    .pg-empty-placeholder {
+        height: 150%;
     }
 }
 
@@ -697,9 +708,8 @@ footer {
         text-align: center;
         font-size: 6vw;
     }
-
-    footer {
-        padding: 0 0 8rem 0;
+    .pg-empty-placeholder {
+        height: 160%;
     }
 }
 
