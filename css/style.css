@@ -826,3 +826,20 @@ footer {
     font-size: 6.2vw;
     margin: 0;
 }
+
+.icon-container {
+    padding-left: 75vw;
+    padding-top: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+.image-holder {
+    height: 5vh;
+    background-image: url('../assets/img/karina-zhukovskaya-6446678.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
