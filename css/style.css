@@ -754,7 +754,6 @@ footer {
     min-width: 30vw;
     min-height: 25vh;
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(240, 240, 240);
@@ -771,6 +770,10 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.addTop {
+    top: 85%;
 }
 
 .pop-up-box button {
@@ -818,6 +821,8 @@ footer {
 .footer-pop-up-box {
     top: 85%;
     min-height: 40vh;
+    z-index: 0;
+    display: none;
 }
 .footer-pop-up-box form {
     height: 100%;
