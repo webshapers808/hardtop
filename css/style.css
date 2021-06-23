@@ -4,8 +4,9 @@ html {
 
 .container {
     display: grid;
-    grid-template-rows: 10% 65% 18%;
-    min-height: 100vh;
+    grid-template-rows: 10% 15% 38%;
+    object-position: 70px;
+    height: 100vh;
 }
 
 .row-1 {
@@ -226,7 +227,7 @@ html {
     position: relative;
     margin-top: 10vh;
     margin-right: 5%;
-    display: block;
+    display: flex;
     overflow: hidden;
     flex-direction: column;
     height: 70vh;
@@ -382,7 +383,7 @@ label {
     padding: 15px 25px;
     font-family: Satoshi;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     text-decoration: none;
     border-width: 2px;
     border-style: solid;
@@ -402,7 +403,7 @@ label {
 .home-link {
     width: 70px;
     height: 70px;
-    position: absolute;
+    position: fixed;
     z-index: 100;
 }
 
@@ -475,9 +476,6 @@ h4 {
     font-family: Satoshi;
 }
 
-.skill-text {
-}
-
 .skill-text-container {
     margin-top: 5%;
     padding-left: 10%;
@@ -502,7 +500,7 @@ h4 {
     font-size: 3.7vw;
     position: relative;
     overflow: hidden;
-    top: 5vw;
+    top: 7vw;
 }
 
 .skill-text > sup {
@@ -746,7 +744,7 @@ footer {
 .skill-benefit-box {
     padding: 10px;
     position: relative;
-    min-height: 35vh;
+    min-height: 45vh;
 }
 
 /* SUCCESS MESSAGE */
@@ -754,6 +752,7 @@ footer {
     min-width: 30vw;
     min-height: 25vh;
     position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(240, 240, 240);
@@ -864,10 +863,27 @@ footer {
 
 .image-holder {
     height: 5vh;
-    background-image: url('../assets/img/karina-zhukovskaya-6446678.jpg');
     background-position: center center;
     background-size: cover;
     position: absolute;
-    bottom: 0;
     width: 90%;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.flex-container {
+    min-height: 1;
+}
+
+.image-holder > img {
+    position: absolute;
+    bottom: 0;
+    height: 380px;
+}
+
+.image-box {
+    height: 36vh;
+    transform: translateX(-30%);
+    bottom: 0;
+    position: absolute;
 }

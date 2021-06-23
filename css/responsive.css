@@ -5,7 +5,7 @@
     }
 
     .gallery-item {
-        min-width: 65vw;
+        min-width: 500px;
     }
 }
 
@@ -56,6 +56,7 @@
     .team-portrait {
         grid-template-columns: 1% 32% 32% 32%;
         top: 17%;
+        display: none;
     }
 
     .portait {
@@ -89,12 +90,12 @@
 
     #burgerMenu {
         bottom: 4%;
-        left: 43%;
+        right: 5%;
     }
 
     #closeMenu {
         bottom: 4%;
-        left: 43%;
+        right: 5%;
     }
 
     .link-text {
@@ -112,6 +113,7 @@
 
     .container {
         grid-template-rows: 15% 40% 30%;
+        min-height: 70vh;
     }
 
     .logo-img {
@@ -145,6 +147,8 @@
 
     .gallery-item {
         max-height: 55vh;
+        min-width: 69vw;
+        margin-left: 5%;
     }
 
     .row-3 {
@@ -163,17 +167,44 @@
         font-size: 1.1em;
         height: 20px;
         margin-left: 0;
-        width: 100%;
+        width: 93%;
     }
 
     .message {
         margin-left: 0;
-        height: 1;
-        width: 100%;
+        height: 18vh;
+        width: 93%;
     }
 
     .submit {
         margin-left: 65%;
+        font-size: 3.3vw;
+    }
+
+    .skill-benefit {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-benefit-box {
+        min-height: initial;
+    }
+
+    .skill-text {
+        font-size: 6.9vw;
+    }
+
+    .skill-image-box {
+        min-height: 20vh;
+    }
+
+    #services-offered {
+        min-height: 130vh;
     }
 }
 
+@media only screen and (min-width:768px) {
+    .desktop-only {
+        display: none;
+    }
+}
