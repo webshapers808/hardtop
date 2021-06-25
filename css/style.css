@@ -103,6 +103,7 @@ html {
 
 ::-webkit-scrollbar {
     width: 10px !important;
+    height: 5px !important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -415,6 +416,7 @@ label {
     font-weight: 500;
     font-family: 'DM Sans', sans-serif;
     margin-top: 0;
+    mix-blend-mode: multiply;
 }
 
 #burgerMenu {
@@ -450,7 +452,8 @@ h4 {
     margin-bottom: 0;
     line-height: 1.0em;
     position: relative;
-    transform: translateY(1em);
+
+    /* transform: translateY(1em) */
 }
 
 .about-text-line {
@@ -515,9 +518,9 @@ footer {
 }
 
 .footer-container,
-.footer-box,
-.footer-input,
-.footer-text {
+.footer-box,
+.footer-input,
+.footer-text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -542,7 +545,7 @@ footer {
 }
 
 .footer-text h3,
-.footer-text p {
+.footer-text p {
     margin: 0.7rem 0 0 3rem;
 }
 
@@ -620,7 +623,7 @@ footer {
     }
 
     .footer-text h3,
-    .footer-text p {
+        .footer-text p {
         margin: 1rem 0 0 1rem;
     }
 }
@@ -729,6 +732,7 @@ footer {
 .skills-opportunity {
     padding-right: 10px;
     margin-top: 0;
+    text-indent: 30%;
 }
 
 .fixed-pos {
@@ -823,6 +827,7 @@ footer {
     z-index: 0;
     display: none;
 }
+
 .footer-pop-up-box form {
     height: 100%;
     display: flex;
@@ -830,16 +835,17 @@ footer {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .footer-pop-up-box form > * {
     opacity: 1;
     margin: 0.5rem 0;
     text-align: left;
 }
+
 #footer-pop-up-message {
     height: 15vh;
     padding: 6px;
 }
-
 
 .blue-text {
     color: #ffffff;
@@ -886,4 +892,27 @@ footer {
     transform: translateX(-30%);
     bottom: 0;
     position: absolute;
+}
+
+.pinned-container {
+    height: 115vh;
+}
+
+@media only screen and (min-width:480px) {
+    .mobile-only-display {
+        display: none;
+    }
+}
+
+.mobile-about-intro-text {
+    font-size: 12.2vw;
+    font-weight: 700;
+    color: #37bbe4;
+    margin: 0;
+    line-height: 1.0em;
+    transform: translateY(1em);
+}
+
+.about-team-title {
+    width: 70vw;
 }

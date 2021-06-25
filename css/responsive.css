@@ -65,6 +65,8 @@
 
     .body-text {
         font-size: 1.2em;
+        text-indent: 30%;
+        text-align: justify;
     }
 
     .text-row > h1 {
@@ -192,6 +194,7 @@
 
     .skill-text {
         font-size: 6.9vw;
+        line-height: 1.0em;
     }
 
     .skill-image-box {
@@ -206,5 +209,41 @@
 @media only screen and (min-width:768px) {
     .desktop-only {
         display: none;
+    }
+}
+
+.portrait-gallery {
+    overflow-x: auto;
+    position: relative;
+    white-space: nowrap;
+    padding-top: 10%;
+}
+
+@media only screen and (max-width:479px) {
+    .mobile-only-display {
+        padding: 20px;
+    }
+
+    .about-title {
+        font-size: 12vw;
+    }
+
+    .portrait-gallery-image {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 40vh;
+        width: 60vw;
+    }
+
+    .team-member {
+        position: relative;
+        display: inline-flex;
+        width: 60vw;
+        margin-right: 10%;
+        flex-direction: column;
+    }
+
+    .team-info {
     }
 }
