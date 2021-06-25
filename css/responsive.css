@@ -50,7 +50,7 @@
 
 @media only screen and (max-width:479px) {
     .text-inline {
-        font-size: 8.5vw;
+        font-size: 12.2vw;
     }
 
     .team-portrait {
@@ -114,7 +114,7 @@
     }
 
     .container {
-        grid-template-rows: 15% 40% 30%;
+        grid-template-rows: 10% 50% 30%;
         min-height: 70vh;
     }
 
@@ -193,7 +193,7 @@
     }
 
     .skill-text {
-        font-size: 6.9vw;
+        font-size: 9.5vw;
         line-height: 1.0em;
     }
 
@@ -245,5 +245,17 @@
     }
 
     .team-info {
+    }
+
+    .text-box {
+        min-height: 12.5vw;
+    }
+
+    .skill-text-container {
+        padding-left: 0;
+    }
+
+    .image-box {
+        transform: translateX(0);
     }
 }

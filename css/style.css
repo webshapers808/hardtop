@@ -4,7 +4,7 @@ html {
 
 .container {
     display: grid;
-    grid-template-rows: 10% 15% 38%;
+    grid-template-rows: 10% 55%;
     object-position: 70px;
     height: 100vh;
 }
@@ -43,16 +43,15 @@ html {
 }
 
 .text-container {
-    position: absolute;
     overflow: hidden;
-    top: 0;
-    bottom: 0;
 }
 
 .text-box {
     position: relative;
-    display: flex;
     color: #37bbe4;
+    display: inline-block;
+    overflow: hidden;
+    max-height: 6vw;
 }
 
 .text-inline {
@@ -62,6 +61,7 @@ html {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1em;
+    transform: translateY(1.0em);
 }
 
 .text-black {
@@ -329,7 +329,7 @@ html {
 }
 
 .prompt {
-    font-size: 4.5vw;
+    font-size: 4vw;
     margin: 0;
     font-weight: 700;
     line-height: 1em;
@@ -732,6 +732,7 @@ footer {
 .skills-opportunity {
     padding-right: 10px;
     margin-top: 0;
+    text-align: justify;
     text-indent: 30%;
 }
 
