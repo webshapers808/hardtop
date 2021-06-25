@@ -175,6 +175,8 @@
     .message {
         margin-left: 0;
         height: 18vh;
+    }
+    .message:not(.footer-pop-up-input) {
         width: 93%;
     }
 
