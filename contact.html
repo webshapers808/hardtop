@@ -104,9 +104,9 @@
                 </div>
                 <div class="column-4">
                     <form id="contact-form">
-                        <input class="contact-input text-input" type="text" placeholder="Your Name" data-pg-ia='{"l":[{"name":"tellUs","trg":"focus","a":{"l":[{"t":"$.first-line, .second-line, .third-line, .fourth-line","l":[{"t":"set","p":0,"d":0,"l":{"y":0}},{"t":"tween","p":0,"d":0.5,"s":0,"l":{"y":"1em"},"e":"Power4.easeInOut"},{"t":"set","p":0.5,"d":0,"l":{"y":"100px"}},{"t":"tween","p":0.5,"d":0.5,"s":0.1,"l":{"y":0},"e":"Power4.easeInOut"}]}]}},{"name":"typeName","trg":"input","a":{"l":[{"t":"$.first-line, .second-line, .third-line, .fourth-line","l":[{"t":"set","p":0,"d":0,"l":{"y":0}},{"t":"tween","p":0,"d":0.5,"s":0,"l":{"y":"1em"},"e":"Power4.easeInOut"},{"t":"set","p":0.5,"d":0,"l":{"y":"100px"}},{"t":"tween","p":0.5,"d":0.5,"s":0.1,"l":{"y":0},"e":"Power4.easeInOut"}]}]}}]}'/>
-                        <input class="contact-input" type="email" placeholder="Email address"/>
-                        <textarea class="message" placeholder="Write your message here"></textarea>
+                        <input class="name contact-input text-input" type="text" placeholder="Your Name" data-pg-ia='{"l":[{"name":"tellUs","trg":"focus","a":{"l":[{"t":"$.first-line, .second-line, .third-line, .fourth-line","l":[{"t":"set","p":0,"d":0,"l":{"y":0}},{"t":"tween","p":0,"d":0.5,"s":0,"l":{"y":"1em"},"e":"Power4.easeInOut"},{"t":"set","p":0.5,"d":0,"l":{"y":"100px"}},{"t":"tween","p":0.5,"d":0.5,"s":0.1,"l":{"y":0},"e":"Power4.easeInOut"}]}]}},{"name":"typeName","trg":"input","a":{"l":[{"t":"$.first-line, .second-line, .third-line, .fourth-line","l":[{"t":"set","p":0,"d":0,"l":{"y":0}},{"t":"tween","p":0,"d":0.5,"s":0,"l":{"y":"1em"},"e":"Power4.easeInOut"},{"t":"set","p":0.5,"d":0,"l":{"y":"100px"}},{"t":"tween","p":0.5,"d":0.5,"s":0.1,"l":{"y":0},"e":"Power4.easeInOut"}]}]}}]}'/>
+                        <input class="email contact-input" type="email" placeholder="Email address"/>
+                        <textarea class="body message" placeholder="Write your message here"></textarea>
                         <button class="submit" type="submit" value="Submit" data-pg-ia='{"l":[{"name":"buttonMouseOver","trg":"mouseenter","t":"this","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"color":"#f6f6f6","backgroundColor":"#000000"},"e":"Cubic.easeInOut"}]}]}},{"name":"buttonMouseLeave","trg":"mouseleave","t":"this","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"color":"#000000","backgroundColor":"#f6f6f6"},"e":"Cubic.easeInOut"}]}]}},{"name":"sendMessage","trg":"mousedown","a":{"l":[{"t":"$.first-line, .second-line, .third-line, .fourth-line","l":[{"t":"set","p":0,"d":0,"l":{"y":0}},{"t":"tween","p":0,"d":0.2,"s":0,"l":{"y":"1em"},"e":"Power4.easeInOut"},{"t":"set","p":0.5,"d":0,"l":{"y":"100px"}},{"t":"tween","p":0.5,"d":0.5,"s":0.1,"l":{"y":0},"e":"Power4.easeInOut"}]}]}}]}'>SEND</button>
                     </form>
                 </div>
@@ -117,12 +117,12 @@
             </div>
         </div>
         <div class="pop-up-box footer-pop-up-box">
-            <form id="footer-pop-up-form" action="">
-                <h3>Get in Contact With Us!</h3>
-                <input id="footer-pop-up-name" class="input footer-pop-up-input footer-pop-up-child" type="text" placeholder="Name">
-                <input id="footer-pop-up-email" class="input footer-pop-up-input footer-pop-up-child" type="text" placeholder="Email Address">
-                <textarea id="footer-pop-up-message" class="input footer-pop-up-input message footer-pop-up-child" type="text" placeholder="Your Message"></textarea>
-                <button id="footer-pop-up-button" class="submit-btn footer-pop-up-child" style="text-align: center;">Send</button>
+            <form class="contact-form" id="footer-pop-up-form" action="">
+                <h3 class="footer-pop-up-message">Get in Contact With Us!</h3>
+                <input id="footer-pop-up-name" class="name input footer-pop-up-input footer-pop-up-child" type="text" placeholder="Name">
+                <input id="footer-pop-up-email" class="email input footer-pop-up-input footer-pop-up-child" type="email" placeholder="Email Address">
+                <textarea id="footer-pop-up-message" class="body input footer-pop-up-input message footer-pop-up-child" type="text" placeholder="Your Message"></textarea>
+                <button id="footer-pop-up-button" class="send submit-btn footer-pop-up-child" style="text-align: center;">Send</button>
             </form>
         </div>
         <footer class="fd-out">
