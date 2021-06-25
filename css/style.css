@@ -518,9 +518,12 @@ footer {
 }
 
 .footer-container,
-.footer-box,
-.footer-input,
-.footer-text {
+
+.footer-box,
+
+.footer-input,
+
+.footer-text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -545,7 +548,8 @@ footer {
 }
 
 .footer-text h3,
-.footer-text p {
+
+.footer-text p {
     margin: 0.7rem 0 0 3rem;
 }
 
@@ -623,7 +627,8 @@ footer {
     }
 
     .footer-text h3,
-        .footer-text p {
+    
+    .footer-text p {
         margin: 1rem 0 0 1rem;
     }
 }
@@ -665,7 +670,7 @@ footer {
         font-size: 3vw;
     }
 
-    .input {
+    .input:not(.footer-pop-up-input) {
         width: 150%;
     }
 }
@@ -698,7 +703,7 @@ footer {
         display: none;
     }
 
-    .input {
+    .input:not(.footer-pop-up-input) {
         width: 200%;
     }
 
@@ -804,7 +809,7 @@ footer {
 
 @media screen and (max-width: 467px) {
     .pop-up-box {
-        min-width: 65vw;
+        min-width: 60vw;
     }
 }
 
