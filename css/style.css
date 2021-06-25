@@ -4,8 +4,9 @@ html {
 
 .container {
     display: grid;
-    grid-template-rows: 10% 65% 18%;
-    min-height: 100vh;
+    grid-template-rows: 10% 15% 38%;
+    object-position: 70px;
+    height: 100vh;
 }
 
 .row-1 {
@@ -102,6 +103,7 @@ html {
 
 ::-webkit-scrollbar {
     width: 10px !important;
+    height: 5px !important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -226,7 +228,7 @@ html {
     position: relative;
     margin-top: 10vh;
     margin-right: 5%;
-    display: block;
+    display: flex;
     overflow: hidden;
     flex-direction: column;
     height: 70vh;
@@ -382,7 +384,7 @@ label {
     padding: 15px 25px;
     font-family: Satoshi;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     text-decoration: none;
     border-width: 2px;
     border-style: solid;
@@ -402,7 +404,7 @@ label {
 .home-link {
     width: 70px;
     height: 70px;
-    position: absolute;
+    position: fixed;
     z-index: 100;
 }
 
@@ -414,6 +416,7 @@ label {
     font-weight: 500;
     font-family: 'DM Sans', sans-serif;
     margin-top: 0;
+    mix-blend-mode: multiply;
 }
 
 #burgerMenu {
@@ -449,7 +452,8 @@ h4 {
     margin-bottom: 0;
     line-height: 1.0em;
     position: relative;
-    transform: translateY(1em);
+
+    /* transform: translateY(1em) */
 }
 
 .about-text-line {
@@ -473,9 +477,6 @@ h4 {
     height: 100vh;
     padding: 20px;
     font-family: Satoshi;
-}
-
-.skill-text {
 }
 
 .skill-text-container {
@@ -502,7 +503,7 @@ h4 {
     font-size: 3.7vw;
     position: relative;
     overflow: hidden;
-    top: 5vw;
+    top: 7vw;
 }
 
 .skill-text > sup {
@@ -517,9 +518,9 @@ footer {
 }
 
 .footer-container,
-.footer-box,
-.footer-input,
-.footer-text {
+.footer-box,
+.footer-input,
+.footer-text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -544,7 +545,7 @@ footer {
 }
 
 .footer-text h3,
-.footer-text p {
+.footer-text p {
     margin: 0.7rem 0 0 3rem;
 }
 
@@ -622,7 +623,7 @@ footer {
     }
 
     .footer-text h3,
-    .footer-text p {
+        .footer-text p {
         margin: 1rem 0 0 1rem;
     }
 }
@@ -731,6 +732,7 @@ footer {
 .skills-opportunity {
     padding-right: 10px;
     margin-top: 0;
+    text-indent: 30%;
 }
 
 .fixed-pos {
@@ -746,7 +748,7 @@ footer {
 .skill-benefit-box {
     padding: 10px;
     position: relative;
-    min-height: 35vh;
+    min-height: 45vh;
 }
 
 /* SUCCESS MESSAGE */
@@ -754,6 +756,7 @@ footer {
     min-width: 30vw;
     min-height: 25vh;
     position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(240, 240, 240);
@@ -824,6 +827,7 @@ footer {
     z-index: 0;
     display: none;
 }
+
 .footer-pop-up-box form {
     height: 100%;
     display: flex;
@@ -831,16 +835,17 @@ footer {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .footer-pop-up-box form > * {
     opacity: 1;
     margin: 0.5rem 0;
     text-align: left;
 }
+
 #footer-pop-up-message {
     height: 15vh;
     padding: 6px;
 }
-
 
 .blue-text {
     color: #ffffff;
@@ -864,10 +869,50 @@ footer {
 
 .image-holder {
     height: 5vh;
-    background-image: url('../assets/img/karina-zhukovskaya-6446678.jpg');
     background-position: center center;
     background-size: cover;
     position: absolute;
-    bottom: 0;
     width: 90%;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.flex-container {
+    min-height: 1;
+}
+
+.image-holder > img {
+    position: absolute;
+    bottom: 0;
+    height: 380px;
+}
+
+.image-box {
+    height: 36vh;
+    transform: translateX(-30%);
+    bottom: 0;
+    position: absolute;
+}
+
+.pinned-container {
+    height: 115vh;
+}
+
+@media only screen and (min-width:480px) {
+    .mobile-only-display {
+        display: none;
+    }
+}
+
+.mobile-about-intro-text {
+    font-size: 12.2vw;
+    font-weight: 700;
+    color: #37bbe4;
+    margin: 0;
+    line-height: 1.0em;
+    transform: translateY(1em);
+}
+
+.about-team-title {
+    width: 70vw;
 }
