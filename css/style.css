@@ -846,6 +846,12 @@ h4 {
     width: 25px;
     height: auto;
 }
+#exit-btn {
+    position: absolute;
+    right: -3%;
+    top: -3%;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 467px) {
     .pop-up-box {
