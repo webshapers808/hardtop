@@ -521,7 +521,7 @@ h4 {
 
 /* FOOTER STYLES */
 .footer-container,
-.footer-input {
+.footer-input {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -538,9 +538,16 @@ h4 {
 
 .section5 {
     flex-basis: 50%;
+<<<<<<< Updated upstream
     /* display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+=======
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+>>>>>>> Stashed changes
     align-items: flex-start; */
 }
 
@@ -550,6 +557,7 @@ h4 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    min-height: 55vh;
 }
 
 .footer-link {
@@ -587,7 +595,7 @@ h4 {
 }
 
 .footer-text h3,
-.footer-text p {
+.footer-text p {
     margin: 0.7rem 0 0 3rem;
 }
 
@@ -674,8 +682,12 @@ h4 {
     }
 
     .footer-text h3,
+<<<<<<< Updated upstream
     
     .footer-text p {
+=======
+        .footer-text p {
+>>>>>>> Stashed changes
         margin: 1rem 0 0 1rem;
     }
 }
@@ -861,8 +873,8 @@ h4 {
 
 #exit-btn {
     position: absolute;
-    right: -3%;
-    top: -3%;
+    right: 3%;
+    top: 3%;
     cursor: pointer;
 }
 

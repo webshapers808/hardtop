@@ -20,10 +20,6 @@
 }
 
 @media only screen and (max-width:1025px) {
-    .ellipse-cursor {
-        display: none;
-    }
-
     .drag-to-scroll {
         display: none;
     }
@@ -177,6 +173,7 @@
         margin-left: 0;
         height: 18vh;
     }
+
     .message:not(.footer-pop-up-input) {
         width: 93%;
     }
