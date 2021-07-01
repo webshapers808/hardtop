@@ -460,8 +460,8 @@ h4 {
     margin-bottom: 0;
     line-height: 1.1em;
     position: relative;
-
-    /* transform: translateY(1em) */
+    transform: translateY(1em);
+    opacity: 0;
 }
 
 .about-text-line {
