@@ -300,3 +300,13 @@
         line-height: 1.0em;
     }
 }
+
+@media only screen and (max-width:1023px) {
+    .text-inline {
+        font-size: 10.2vw;
+    }
+
+    .text-box {
+        max-height: 10.2vw;
+    }
+}

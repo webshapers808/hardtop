@@ -4,7 +4,7 @@ html {
 
 .container {
     display: grid;
-    grid-template-rows: 10% 70%;
+    grid-template-rows: 5% 75% 20%;
     object-position: 70px;
     height: 100vh;
 }
@@ -61,7 +61,7 @@ html {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.0em;
-    transform: translateY(1.0em);
+    top: 1em;
 }
 
 .text-black {
@@ -494,7 +494,7 @@ h4 {
 
 .skill-text-container {
     margin-top: 5%;
-    padding-left: 12.5vw;
+    margin-left: 12.5vw;
 }
 
 .skill-paragraph {
@@ -507,6 +507,7 @@ h4 {
     display: inline-block;
     overflow: hidden;
 }
+
 skills-text-box h2 {
     padding-top: 0;
     padding-bottom: 0;
@@ -521,6 +522,8 @@ skills-text-box h2 {
     position: relative;
     overflow: hidden;
     top: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .skill-text > sup {
@@ -529,7 +532,7 @@ skills-text-box h2 {
 
 /* FOOTER STYLES */
 .footer-container,
-.footer-input {
+.footer-input {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -599,7 +602,7 @@ skills-text-box h2 {
 }
 
 .footer-text h3,
-.footer-text p {
+.footer-text p {
     margin: 0.7rem 0 0 3rem;
 }
 
@@ -686,7 +689,7 @@ skills-text-box h2 {
     }
 
     .footer-text h3,
-    .footer-text p {
+        .footer-text p {
         margin: 1rem 0 0 1rem;
     }
 }
@@ -783,7 +786,7 @@ skills-text-box h2 {
 
 .skill-benefit {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
     font-family: 'DM Sans', sans-serif;
     margin-top: 50px;
 }
